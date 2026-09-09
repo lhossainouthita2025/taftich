@@ -357,6 +357,11 @@ app.post('/api/admin/seed', async (_req, res) => {
   }
 });
 
-app.listen(port, () => {
+/*app.listen(port, () => {
   console.log(`API MySQL locale disponible sur http://localhost:${port}`);
+});*/
+const PORT = Number(process.env.PORT) || 8787;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`API running on port ${PORT}`);
 });
