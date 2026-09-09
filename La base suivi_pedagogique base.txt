@@ -1,0 +1,9 @@
+La base suivi_pedagogique a été importée avec succès. Vérifications effectuées :
+
+6 tables créées.
+enseignants.cycle contient bien les deux valeurs arabes distinctes.
+L’erreur duplicated value est résolue.
+Pour réimporter correctement à l’avenir :
+mysql --default-character-set=utf8mb4 -u root -p -e "source sql/schema.sql"
+
+Le pipeline Get-Content | mysql réencode le fichier et doit être évité ici.

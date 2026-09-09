@@ -1,0 +1,6 @@
+{
+  "name": "Gestion du Suivi Pédagogique et Scolaire",
+  "description": "Application web de gestion et de suivi des inspections, visites, rencontres et formations dans les établissements scolaires.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
